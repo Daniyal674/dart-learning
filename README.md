@@ -20,6 +20,24 @@ The course is organized into sequential modules. Each module covers a core conce
 | **04** | [Data Types](./04-data-types/) | Working with `int`, `double`, `String`, `bool`, `List`, and `Map` collections | `notes.md`, `example.dart`, `exercise.dart` |
 | **05** | [Operators](./05-operators/) | Arithmetic, Comparison, Logical, and Assignment operators | `notes.md`, `example.dart`, `exercise.dart` |
 | **06** | [Control Flow](./06-control-flow/) | Conditional branching (`if-else`, `switch`) and loops (`for`, `while`, `do-while`) | `notes.md`, `example.dart`, `exercise.dart` |
+| **07** | [Functions](./07-functions/) | Functions, arrow functions, named and optional parameters, string interpolation | `notes.md`, `example.dart`, `exercise.dart` |
+| **08** | [Null Safety](./08-null-safety/) | Nullable and non-nullable types, null assertions (`!`), null-aware operators (`??`, `??=`), `late` variables | `notes.md`, `example.dart`, `exercise.dart` |
+
+---
+
+## Practical Mini-Projects
+
+Once you have mastered the core language features, put your skills to the test with these console mini-projects located in the [practical/](./practical/) directory:
+
+- **CLI Calculator** ([calculator.dart](./practical/calculator.dart)): A command-line calculator that takes user inputs, processes arithmetic operators (+, -, *, /), and includes zero-division safety.
+- **Multi-Unit Temperature Converter** ([temperature-convertor.dart](./practical/temperature-convertor.dart)): A robust CLI tool that converts temperatures across Celsius, Fahrenheit, and Kelvin through a user-friendly selection menu.
+
+To run the practical projects, run the following commands in your terminal:
+
+```bash
+dart run practical/calculator.dart
+dart run practical/temperature-convertor.dart
+```
 
 ---
 
@@ -35,7 +53,7 @@ Follow these steps to set up your local development environment:
    - Open the VS Code Extensions tab (`Ctrl+Shift+X` or `Cmd+Shift+X`) and install the **Dart** extension.
 3. **Clone this Repository**:
 
-```bash
+   ```bash
    git clone <repository-url>
    cd dart-learning
    ```
@@ -57,18 +75,18 @@ graph TD
 1. **Read `notes.md`**: Study the concepts, vocabulary, syntax rules, and cheat sheets in the directory.
 2. **Analyze `example.dart`**: Run the example code using the terminal to see how the syntax behaves.
 
-```bash
+   ```bash
    dart run <module-folder>/example.dart
    ```
 
-1. **Practice**: Open `exercise.dart` (which is kept blank for you) and write a program that satisfies the exercise instructions found at the bottom of that module's `notes.md`.
-2. **Test**: Run your custom exercise code:
+3. **Practice**: Open `exercise.dart` (which is kept blank for you) and write a program that satisfies the exercise instructions found at the bottom of that module's `notes.md`.
+4. **Test**: Run your custom exercise code:
 
    ```bash
    dart run <module-folder>/exercise.dart
    ```
 
-3. **Review**: Check your answers against the corresponding file in the [solutions/](./solutions/) directory to see how it can be structured.
+5. **Review**: Check your answers against the corresponding file in the [solutions/](./solutions/) directory to see how it can be structured.
 
 ---
 
