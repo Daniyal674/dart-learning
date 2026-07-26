@@ -2,7 +2,7 @@
 
 Created by **Daniyal Ahsan**
 
-Welcome to the Dart Learning Repository! This repository is a self-paced, structured hands-on tutorial designed to take you from a complete beginner to writing clean, idiomatic Dart programs. 
+Welcome to the Dart Learning Repository! This repository is a self-paced, structured hands-on tutorial designed to take you from a complete beginner to writing clean, idiomatic Dart programs.
 
 Dart is a client-optimized language developed by Google, famous for powering **Flutter** (for building beautiful cross-platform mobile, web, and desktop apps) and highly performant backend frameworks like **Shelf** or **Dart Frog**.
 
@@ -34,7 +34,8 @@ Follow these steps to set up your local development environment:
    - Install [Visual Studio Code](https://code.visualstudio.com/).
    - Open the VS Code Extensions tab (`Ctrl+Shift+X` or `Cmd+Shift+X`) and install the **Dart** extension.
 3. **Clone this Repository**:
-   ```bash
+
+```bash
    git clone <repository-url>
    cd dart-learning
    ```
@@ -55,19 +56,24 @@ graph TD
 
 1. **Read `notes.md`**: Study the concepts, vocabulary, syntax rules, and cheat sheets in the directory.
 2. **Analyze `example.dart`**: Run the example code using the terminal to see how the syntax behaves.
-   ```bash
+
+```bash
    dart run <module-folder>/example.dart
    ```
-3. **Practice**: Open `exercise.dart` (which is kept blank for you) and write a program that satisfies the exercise instructions found at the bottom of that module's `notes.md`.
-4. **Test**: Run your custom exercise code:
+
+1. **Practice**: Open `exercise.dart` (which is kept blank for you) and write a program that satisfies the exercise instructions found at the bottom of that module's `notes.md`.
+2. **Test**: Run your custom exercise code:
+
    ```bash
    dart run <module-folder>/exercise.dart
    ```
-5. **Review**: Check your answers against the corresponding file in the [solutions/](./solutions/) directory to see how it can be structured.
+
+3. **Review**: Check your answers against the corresponding file in the [solutions/](./solutions/) directory to see how it can be structured.
 
 ---
 
 ## Key Tips & Conventions
+
 - **Naming Conventions**: Variables and functions in Dart should use `camelCase` (e.g., `favoriteFood`, `userAge`).
 - **Null Safety**: When reading input with `stdin.readLineSync()`, Dart returns a nullable String (`String?`). Keep this in mind when defining variable types.
 - **Run Anywhere**: Since Dart compiles to standalone machine code or JavaScript, the skills you learn here translate directly to writing backend APIs, command-line utilities, or Flutter apps.
