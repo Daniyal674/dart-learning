@@ -22,6 +22,8 @@ The course is organized into sequential modules. Each module covers a core conce
 | **06** | [Control Flow](./06-control-flow/) | Conditional branching (`if-else`, `switch`) and loops (`for`, `while`, `do-while`) | `notes.md`, `example.dart`, `exercise.dart` |
 | **07** | [Functions](./07-functions/) | Functions, arrow functions, named and optional parameters, string interpolation | `notes.md`, `example.dart`, `exercise.dart` |
 | **08** | [Null Safety](./08-null-safety/) | Nullable and non-nullable types, null assertions (`!`), null-aware operators (`??`, `??=`), `late` variables | `notes.md`, `example.dart`, `exercise.dart` |
+| **09** | [Collections](./09-collections/) | Working with lists, sets, and maps, common collection methods, key-value structures, and loops | `notes.md`, `example.dart`, `exercise.dart` |
+| **10** | [OOP: Classes & Objects](./10-oop-classes/) | Object-Oriented Programming basics including classes, objects, default/named constructors, and methods | `notes.md`, `example.dart`, `exercise.dart` |
 
 ---
 
@@ -31,12 +33,39 @@ Once you have mastered the core language features, put your skills to the test w
 
 - **CLI Calculator** ([calculator.dart](./practical/calculator.dart)): A command-line calculator that takes user inputs, processes arithmetic operators (+, -, *, /), and includes zero-division safety.
 - **Multi-Unit Temperature Converter** ([temperature-convertor.dart](./practical/temperature-convertor.dart)): A robust CLI tool that converts temperatures across Celsius, Fahrenheit, and Kelvin through a user-friendly selection menu.
+- **Text-Based Quiz App** ([text-based-quiz-app.dart](./practical/text-based-quiz-app.dart)): An interactive quiz game that prompts the user with questions, validates responses, updates scores, and provides performance feedback.
 
 To run the practical projects, run the following commands in your terminal:
 
 ```bash
 dart run practical/calculator.dart
 dart run practical/temperature-convertor.dart
+dart run practical/text-based-quiz-app.dart
+```
+
+---
+
+## Logic Building & Recursion
+
+To strengthen your problem-solving abilities and understand execution flow, try these exercises located in the [logic-building/](./logic-building/) directory. They cover fundamental algorithms using both iterative and recursive approaches:
+
+- **Standard Logic**:
+  - **FizzBuzz** ([fizzbuzz.dart](./logic-building/fizzbuzz.dart))
+  - **Palindrome Check** ([plaindrome.dart](./logic-building/plaindrome.dart))
+  - **Reverse Number** ([reverse-number.dart](./logic-building/reverse-number.dart))
+- **Iteration vs. Recursion**:
+  - **Factorial** ([factorial.dart](./logic-building/factorial.dart) & [factorial-recursive.dart](./logic-building/factorial-recursive.dart))
+  - **Fibonacci** ([fibonacci.dart](./logic-building/fibonacci.dart) & [fibonacci-recursive.dart](./logic-building/fibonacci-recursive.dart))
+  - **Sum of 1 to N** ([sum-of-1-to-N.dart](./logic-building/sum-of-1-to-N.dart) & [sum-of-1-to-N-recursive.dart](./logic-building/sum-of-1-to-N-recursive.dart))
+- **Recursive Thinking**:
+  - **Recursive Countdown** ([recursive-countdown.dart](./logic-building/recursive-countdown.dart))
+  - **Digit Counter** ([digit-counter-recursive.dart](./logic-building/digit-counter-recursive.dart))
+  - **Power Calculator** ([recursive-power-calculator.dart](./logic-building/recursive-power-calculator.dart))
+
+To run a logic-building script, use:
+
+```bash
+dart run logic-building/<filename>.dart
 ```
 
 ---
