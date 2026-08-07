@@ -24,6 +24,8 @@ The course is organized into sequential modules. Each module covers a core conce
 | **08** | [Null Safety](./08-null-safety/) | Nullable and non-nullable types, null assertions (`!`), null-aware operators (`??`, `??=`), `late` variables | `notes.md`, `example.dart`, `exercise.dart` |
 | **09** | [Collections](./09-collections/) | Working with lists, sets, and maps, common collection methods, key-value structures, and loops | `notes.md`, `example.dart`, `exercise.dart` |
 | **10** | [OOP: Classes & Objects](./10-oop-classes/) | Object-Oriented Programming basics including classes, objects, default/named constructors, and methods | `notes.md`, `example.dart`, `exercise.dart` |
+| **11** | [Inheritance, Interfaces & Mixins](./11-inheritance-interfaces-mixins/) | OOP inheritance, abstract classes, interfaces (`implements`), mixins (`with`), and method overriding | `notes.md`, `example.dart`, `exercise.dart` |
+| **12** | [Exceptions & Generics](./12-exceptions-generics/) | Exception handling (`try-catch`, custom exceptions) and generic programming basics | `notes.md`, `example.dart`, `exercise.dart` |
 
 ---
 
@@ -34,6 +36,7 @@ Once you have mastered the core language features, put your skills to the test w
 - **CLI Calculator** ([calculator.dart](./practical/calculator.dart)): A command-line calculator that takes user inputs, processes arithmetic operators (+, -, *, /), and includes zero-division safety.
 - **Multi-Unit Temperature Converter** ([temperature-convertor.dart](./practical/temperature-convertor.dart)): A robust CLI tool that converts temperatures across Celsius, Fahrenheit, and Kelvin through a user-friendly selection menu.
 - **Text-Based Quiz App** ([text-based-quiz-app.dart](./practical/text-based-quiz-app.dart)): An interactive quiz game that prompts the user with questions, validates responses, updates scores, and provides performance feedback.
+- **Contact Manager** ([contact_manager.dart](./practical/contact_manager.dart)): An object-oriented CLI system managing contact creation, deletion, search, and list, incorporating custom exception handling.
 
 To run the practical projects, run the following commands in your terminal:
 
@@ -41,6 +44,7 @@ To run the practical projects, run the following commands in your terminal:
 dart run practical/calculator.dart
 dart run practical/temperature-convertor.dart
 dart run practical/text-based-quiz-app.dart
+dart run practical/contact_manager.dart
 ```
 
 ---
