@@ -130,5 +130,23 @@ graph TD
 - **Run Anywhere**: Since Dart compiles to standalone machine code or JavaScript, the skills you learn here translate directly to writing backend APIs, command-line utilities, or Flutter apps.
 
 ---
+## Frequently Asked Questions (FAQ)
+
+### Why should I learn Dart before Flutter?
+Dart is the foundational programming language that powers Flutter. Mastering core Dart concepts—like null safety, control flow, and collections—prevents common errors and makes building cross-platform mobile and web interfaces in Flutter significantly easier.
+
+### What is the difference between `var`, `final`, and `const` in Dart?
+- `var` is used when you want Dart to infer the variable type, and the value can be changed.
+- `final` is used for variables whose values are set only once at runtime (e.g., fetching data from an API). 
+- `const` is used for variables whose values are completely fixed and known at compile-time (e.g., hardcoded UI values). 
+
+### How does Null Safety work in Dart?
+Null safety ensures that variables cannot contain a `null` value unless you explicitly allow them to by adding a question mark (e.g., `String?`). This feature eliminates a massive class of runtime errors, making your Flutter apps much more stable.
+
+### Do I need prior programming experience to use this repository?
+No prior experience is strictly required, though familiarity with basic programming concepts helps. This curriculum is structured step-by-step, starting from basic SDK installation and I/O, moving up to functions and null safety, complete with hands-on `exercise.dart` files to practice.
+
+### Can I build backend APIs with Dart?
+Yes! While Dart is famous for Flutter mobile and web apps, it compiles to standalone machine code. You can use frameworks like Shelf or Dart Frog to write highly performant backend servers and command-line utilities.
 
 *Happy Coding! If you find this repository helpful, consider leaving a star!*
