@@ -26,6 +26,8 @@ The course is organized into sequential modules. Each module covers a core conce
 | **10** | [OOP: Classes & Objects](./10-oop-classes/) | Object-Oriented Programming basics including classes, objects, default/named constructors, and methods | `notes.md`, `example.dart`, `exercise.dart` |
 | **11** | [Inheritance, Interfaces & Mixins](./11-inheritance-interfaces-mixins/) | OOP inheritance, abstract classes, interfaces (`implements`), mixins (`with`), and method overriding | `notes.md`, `example.dart`, `exercise.dart` |
 | **12** | [Exceptions & Generics](./12-exceptions-generics/) | Exception handling (`try-catch`, custom exceptions) and generic programming basics | `notes.md`, `example.dart`, `exercise.dart` |
+| **13** | [Asynchronous Programming](./13-async-await-future/) | Asynchronous Dart, async, await, Futures, error handling, parallel execution | `notes.md`, `example.dart`, `exercise.dart` |
+| **13b** | [Streams & Async Error Handling](./13b-streams-async-errors/) | Asynchronous streams, async*, yield, stream listening (await for, .listen), stream operations, async error handling | `notes.md`, `example.dart`, `exercise.dart` |
 
 ---
 
@@ -37,6 +39,7 @@ Once you have mastered the core language features, put your skills to the test w
 - **Multi-Unit Temperature Converter** ([temperature-convertor.dart](./practical/temperature-convertor.dart)): A robust CLI tool that converts temperatures across Celsius, Fahrenheit, and Kelvin through a user-friendly selection menu.
 - **Text-Based Quiz App** ([text-based-quiz-app.dart](./practical/text-based-quiz-app.dart)): An interactive quiz game that prompts the user with questions, validates responses, updates scores, and provides performance feedback.
 - **Contact Manager** ([contact_manager.dart](./practical/contact_manager.dart)): An object-oriented CLI system managing contact creation, deletion, search, and list, incorporating custom exception handling.
+- **Weather App** ([main.dart](./practical/Weather_App/main.dart)): A console app that fetches live weather data from the Open-Meteo API using async/await, HTTP requests, and JSON parsing.
 
 To run the practical projects, run the following commands in your terminal:
 
@@ -45,14 +48,21 @@ dart run practical/calculator.dart
 dart run practical/temperature-convertor.dart
 dart run practical/text-based-quiz-app.dart
 dart run practical/contact_manager.dart
+dart run practical/Weather_App/main.dart
 ```
 
 ---
 
 ## Logic Building & Recursion
 
-To strengthen your problem-solving abilities and understand execution flow, try these exercises located in the [logic-building/](./logic-building/) directory. They cover fundamental algorithms using both iterative and recursive approaches:
+To strengthen your problem-solving abilities and understand execution flow, try these exercises located in the [logic-building/](./logic-building/) directory (see the full [Problem Set](./logic-building/statements.md)). They cover fundamental algorithms using both iterative and recursive approaches:
 
+- **Sorting Algorithms**:
+  - **Bubble Sort** ([bubble-sort.dart](./logic-building/bubble-sort.dart))
+  - **Merge Sort** ([merge-sort.dart](./logic-building/merge-sort.dart))
+- **Search Algorithms**:
+  - **Linear Search** ([linear-search.dart](./logic-building/linear-search.dart))
+  - **Binary Search** ([binary-search.dart](./logic-building/binary-search.dart))
 - **Standard Logic**:
   - **FizzBuzz** ([fizzbuzz.dart](./logic-building/fizzbuzz.dart))
   - **Palindrome Check** ([plaindrome.dart](./logic-building/plaindrome.dart))
@@ -65,6 +75,23 @@ To strengthen your problem-solving abilities and understand execution flow, try 
   - **Recursive Countdown** ([recursive-countdown.dart](./logic-building/recursive-countdown.dart))
   - **Digit Counter** ([digit-counter-recursive.dart](./logic-building/digit-counter-recursive.dart))
   - **Power Calculator** ([recursive-power-calculator.dart](./logic-building/recursive-power-calculator.dart))
+- **Arrays & Lists**:
+  - **Find Maximum** ([find_maximum.dart](./logic-building/find_maximum.dart))
+  - **Find Minimum** ([find_minimum.dart](./logic-building/find_minimum.dart))
+  - **Sum of Elements** ([sum_of_elements.dart](./logic-building/sum_of_elements.dart))
+  - **Even and Odd Counter** ([count_even_odd.dart](./logic-building/count_even_odd.dart))
+  - **Remove Duplicates** ([remove_duplicates.dart](./logic-building/remove_duplicates.dart))
+  - **Reverse List Manually** ([reverse_list.dart](./logic-building/reverse_list.dart))
+- **String Manipulation**:
+  - **Count Vowels** ([count_vowels.dart](./logic-building/count_vowels.dart))
+  - **Count Word Occurrences** ([count_word_occurrences.dart](./logic-building/count_word_occurrences.dart))
+  - **Capitalize Each Word** ([capitalize_words.dart](./logic-building/capitalize_words.dart))
+  - **Find Longest Word** ([find_longest_word.dart](./logic-building/find_longest_word.dart))
+- **Hash Maps (Dart `Map`)**:
+  - **Character Frequency** ([character_frequency.dart](./logic-building/character_frequency.dart))
+  - **Word Frequency** ([word_frequency.dart](./logic-building/word_frequency.dart))
+  - **First Non-Repeating Character** ([first_non_repeating_character.dart](./logic-building/first_non_repeating_character.dart))
+  - **Group Even and Odd** ([group_by_even_odd.dart](./logic-building/group_by_even_odd.dart))
 
 To run a logic-building script, use:
 
