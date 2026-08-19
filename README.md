@@ -28,6 +28,7 @@ The course is organized into sequential modules. Each module covers a core conce
 | **12** | [Exceptions & Generics](./12-exceptions-generics/) | Exception handling (`try-catch`, custom exceptions) and generic programming basics | `notes.md`, `example.dart`, `exercise.dart` |
 | **13** | [Asynchronous Programming](./13-async-await-future/) | Asynchronous Dart, async, await, Futures, error handling, parallel execution | `notes.md`, `example.dart`, `exercise.dart` |
 | **13b** | [Streams & Async Error Handling](./13b-streams-async-errors/) | Asynchronous streams, async*, yield, stream listening (await for, .listen), stream operations, async error handling | `notes.md`, `example.dart`, `exercise.dart` |
+| **14** | [Introduction to Flutter](./14-flutter-intro/) | Flutter UI toolkit, Widget tree, `StatelessWidget` vs `StatefulWidget`, state management with `setState()` | `notes.md`, `example.dart`, `exercise.dart`, `counter_app/`, `solutions/flutter_intro` |
 
 ---
 
@@ -147,6 +148,32 @@ graph TD
    ```
 
 5. **Review**: Check your answers against the corresponding file in the [solutions/](./solutions/) directory to see how it can be structured.
+
+### 💡 Special Case: Flutter Modules (Module 14+)
+
+Unlike modules 01-13b which contain standalone Dart console programs run using `dart run`, Flutter modules require a Flutter environment to execute widgets.
+
+For **Module 14 (Introduction to Flutter)**:
+
+1. **Running the Example**:
+   The example code in [example.dart](./14-flutter-intro/example.dart) is pre-configured as a runnable Flutter project in the [counter_app/](./14-flutter-intro/counter_app/) directory.
+   To run it, navigate to that directory and start the application:
+   ```bash
+   cd 14-flutter-intro/counter_app
+   flutter run
+   ```
+
+2. **Completing the Exercise**:
+   - Write your widget code in [exercise.dart](./14-flutter-intro/exercise.dart) according to the task description in the `notes.md`.
+   - To run and test your widgets, copy and paste them into [counter_app/lib/main.dart](./14-flutter-intro/counter_app/lib/main.dart) (replacing the example code) and run `flutter run`.
+
+3. **Checking the Solution**:
+   - Compare your code with the single-file solution in [solutions/14-flutter-intro.dart](./solutions/14-flutter-intro.dart).
+   - Alternatively, you can run the completed solution project:
+     ```bash
+     cd solutions/flutter_intro
+     flutter run
+     ```
 
 ---
 
